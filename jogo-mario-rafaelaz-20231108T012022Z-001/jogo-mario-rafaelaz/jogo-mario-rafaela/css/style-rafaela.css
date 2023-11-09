@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Jogo{
+	margin: 0 auto;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(#63c2eb, #ece6e6 );
+	border-bottom: 30px solid rgb(6, 150, 6);
+}
+
+.pipe {
+	position: absolute;
+	bottom: -2px;
+	width: 90px;
+	animation: pipe-animation 2s infinite linear;
+}
+
+.mario{
+	width: 150px;
+	position: absolute;
+	bottom: 0; 
+
+}
+
+.jump{
+	animation: jump 1s ease-out;
+}
+
+.nuvem{ 
+	width: 450px;
+	position: absolute;
+	animation: nuvem-animation 20s infinite linear;
+ }
+
+
+@keyframes pipe-animation {
+	from{
+		right: -110px;
+	}
+	to{
+		right: 100%;
+	}
+}
+
+@keyframes nuvem-animation {
+	from{
+		right: -450px;
+	}
+	to {
+		right: 100%;
+	}
+}
+@keyframes jump {
+	0%{
+		bottom: 0;
+	}
+	30%{
+		bottom: 150px;
+	}
+	40%{
+		bottom: 200px;
+	}
+	50%{
+		bottom: 200px;
+	}
+	60%{
+		bottom: 190px;
+	}
+	70%{
+		bottom: 180px;
+	}
+	80%{
+		bottom: 100px;
+	}
+	90%{
+		bottom: 50px;
+	}
+	100%{
+		bottom: 0px;
+	}
+}

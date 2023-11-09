@@ -1,0 +1,14 @@
+1- 
+Rede de computadores, segundo os autores:
+é um conjunto de equipamentos interligados, ou seja, liga dois ou mais computadores, de uma forma que pssibilita a troca de informaçoes e compartilhamento de recursos, tais como equipamentos perifericos, impressoras, modens, entre outros.
+
+
+2- Para que eles possam conversar entre si,  ou seja, é possivel que por essa rede de computadores, é conjunto de usuarios/computadores possam compartilhar recursos.
+
+
+3- Host é qualquer uma das maquinas ou computadores, nas quais estejam  conectados a uma rede.
+
+
+4- os representante da parte fisica da composiçao de uma rede são os componentes de hardware da rede, portanto fios, placas de rede, computadores, entre outros. esses componentes são organizados e interligados, e tambem essa parte é chamada de topologia fisica
+
+5- Os representantes da parte logica de uma rede são as regras que permitem que os componentes de hardware funcionem quando interligados, essa mesma organização é conhecida por topologia lógica.
